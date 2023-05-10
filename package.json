@@ -26,8 +26,8 @@
         "vite": "^4.3.5"
     },
     "dependencies": {
-        "flickity": "^3.0.0",
         "prop-types": "^15.8.1",
-        "react-flickity-component": "^4.0.5"
+        "react-flickity-component": "^4.0.5",
+        "react-player": "^2.12.0"
     }
 }
