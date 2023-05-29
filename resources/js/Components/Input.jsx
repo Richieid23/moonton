@@ -46,7 +46,7 @@ export default function Input({
                 type={type}
                 name={name}
                 value={value}
-                className={`rounded-2xl bg-form-bg py-[13px] px-7 w-full input-${variant} ${className}`}
+                className={`rounded-2xl bg-form-bg py-[13px] px-7 w-full ${isError && "input-error"} input-${variant} ${className}`}
                 ref={input}
                 autoComplete={autoComplete}
                 required={required}
